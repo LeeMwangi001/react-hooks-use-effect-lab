@@ -3,7 +3,7 @@ import React, { useState } from "react";
 function Question({ question, onAnswered }) {
   const [timeRemaining, setTimeRemaining] = useState(10);
 
-  // add useEffect code
+
 
   function handleAnswer(isCorrect) {
     setTimeRemaining(10);
